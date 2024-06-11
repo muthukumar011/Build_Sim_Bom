@@ -1,0 +1,5 @@
+// Insert CSV file of ITEM into Master_Item //
+
+COPY INTO BUILD_SIM_BOM.MASTER_DATA.ITEM
+FROM @BUILD_SIM_BOM.MASTER_DATA.STAGE/Item_master.csv
+FILE_FORMAT = BUILD_SIM_BOM.MASTER_DATA.Comma_separator;

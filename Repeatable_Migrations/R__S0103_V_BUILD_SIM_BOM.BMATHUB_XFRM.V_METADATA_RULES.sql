@@ -1,0 +1,11 @@
+// Create View Metadata Rules //
+
+create or replace view BUILD_SIM_BOM.BMATHUB_XFRM.V_METADATA_RULES(
+	ITEM_CLASS_NM,
+	LOC
+) as
+SELECT
+  ITEM_CLASS_NM,
+  LOC
+FROM
+  BUILD_SIM_BOM.BMATHUB_BASE.T_METADATA_RULES;
