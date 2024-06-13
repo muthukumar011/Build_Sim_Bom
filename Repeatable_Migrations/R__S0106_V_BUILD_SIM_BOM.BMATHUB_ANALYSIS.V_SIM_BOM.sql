@@ -1,4 +1,4 @@
-// Create View V_SIM_BOM //
+// Create a View V_SIM_BOM //
 
 create or replace view BUILD_SIM_BOM.BMATHUB_ANALYSIS.V_SIM_BOM(
 	ITEM,
